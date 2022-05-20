@@ -21,7 +21,7 @@ function TransactionHistory({items}) {
     )
 }
 
-export default TransactionHistory;
+export default TransactionHistory
 
 TransactionHistory.defaultProps = {
     items: [],

@@ -10,7 +10,7 @@ function Transactions({data}) {
     </tr>
 )
    })
-    return elements;
+    return elements
 }
 
 export default Transactions;
