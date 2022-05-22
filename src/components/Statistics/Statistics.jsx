@@ -19,6 +19,10 @@ Statistics.defaultProps = {
 export default Statistics;
 
 Statistics.propTypes = {
-    title: PropTypes.string,
+  title: PropTypes.string,
+  data: PropTypes.arrayOf(PropTypes.shape({
+    id: PropTypes.string.isRequired,
+   label: PropTypes.string.isRequired,
+    percentage: PropTypes.number.isRequired,
+ }))
 }
-

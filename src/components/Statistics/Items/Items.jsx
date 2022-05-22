@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+
 import styles from './Items.module.css'
 
 function Items({ data }) {
@@ -12,10 +12,3 @@ function Items({ data }) {
 }
 
 export default Items;
-
-Items.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.shape({
-   label: PropTypes.string.isRequired,
-    percentage: PropTypes.number.isRequired,
- }))
-}
